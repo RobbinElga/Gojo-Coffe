@@ -20,6 +20,7 @@ import {
   X,
 } from "lucide-react";
 import "leaflet/dist/leaflet.css";
+import AudioPlayer from "./auioo";
 
 const navItems = ["Beranda", "Tentang", "Menu", "Promo", "Galeri", "Lokasi", "FAQ"];
 
@@ -433,6 +434,7 @@ export default function Home() {
   return (
     <>
       <LoadingScreen />
+      <AudioPlayer />
       <motion.div className="fixed left-0 top-0 z-[70] h-1 origin-left bg-[#533afd]" style={{ scaleX }} />
       <Navbar />
       <main>
