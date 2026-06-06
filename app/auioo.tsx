@@ -49,7 +49,7 @@ export default function AudioPlayer() {
                 ref={audioRef}
                 loop
                 preload="auto"
-                src="/music/sound.mp3"
+                src="/music/suara.mp3"
             />
 
             <button
